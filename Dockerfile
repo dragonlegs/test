@@ -5,7 +5,7 @@ MAINTAINER alex <alexwhen@gmail.com>
 RUN apk --update add nginx
 
 RUN apk --update add nmap
-#Look at this change
+#LLook at this change
 COPY 2048 /usr/share/nginx/html
 
 EXPOSE 80
